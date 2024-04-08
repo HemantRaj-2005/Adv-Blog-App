@@ -134,6 +134,11 @@ export default function Comment({ comment, onLike, onEdit, onDelete }) {
                                         </button>
                                     </>
                                 )}
+
+                            {comment.replies && comment.replies.map((reply) => (
+                                <Comment key={reply._id} comment={reply} onLike={onLike} onEdit={onEdit} onDelete={onDelete} />
+                            ))}
+
                         </div>
                     </>
                 )}
