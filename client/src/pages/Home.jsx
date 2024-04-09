@@ -18,8 +18,8 @@ export const Home = () => {
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto '>
         <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to team 404 Brain Not Found's Blog</h1>
         <p className='text-gray-500 text-xs sm:text-sm'>
-          Here you'll find a variety of articles and tutorials on topics such as
-          web development, software engineering, and programming languages.
+          On this blog, you'll find weekly articles on topics
+          such as Technology, Science, Wildlife, Research and much more topics as per your request in comments....
         </p>
         <Link
           to='/search'
